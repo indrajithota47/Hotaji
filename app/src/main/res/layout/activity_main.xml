@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1FAEE"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- App Title / Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotaji"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#1D3557"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Subtitle / Tagline -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multi-Modal Next-Gen AI System"
+        android:textSize="16sp"
+        android:textColor="#457B9D"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"/>
+
+    <!-- Founder & Origin Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#D6EAF8"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Founder: Indrajit Hota"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#1D3557"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Made in Odisha | Made in India"
+            android:textSize="14sp"
+            android:textColor="#457B9D"/>
+    </LinearLayout>
+
+    <!-- Interactive Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore AI Agents &amp; Badges"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#457B9D"
+        android:padding="12dp"/>
+
+</LinearLayout>
+
