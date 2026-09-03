@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1FAEE"
+    android:padding="20dp">
+
+    <!-- Header Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Specialized AI Agents"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1D3557"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Scrollable List of Agents -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Agent 1: Life Manager -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D6EAF8"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Dashboard &amp; Life Manager"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1D3557"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daily briefings, to-dos, reminders, habit trackers."
+                    android:textSize="14sp"
+                    android:textColor="#457B9D"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Agent 2: Academic & Research -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D6EAF8"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Academic &amp; Research Agent"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1D3557"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ELI5 to expert modes, mock tests, and citations."
+                    android:textSize="14sp"
+                    android:textColor="#457B9D"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Agent 3: Code Agent -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D6EAF8"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Code &amp; Architecture Agent"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1D3557"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Multi-language debugging and system structure recommendations."
+                    android:textSize="14sp"
+                    android:textColor="#457B9D"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Agent 4: Career & Writing -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D6EAF8"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Career &amp; Creative Writing Agent"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1D3557"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resumes, mock interviews, scripts, and content creation."
+                    android:textSize="14sp"
+                    android:textColor="#457B9D"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
