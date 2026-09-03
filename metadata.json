@@ -1,0 +1,6 @@
+{
+  "name": "Hotaji",
+  "description": "Multi-Modal Next-Gen AI System (Personal AI Operating System - PAIOS) by Indrajit Hota",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
