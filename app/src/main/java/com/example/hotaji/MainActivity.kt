@@ -1,16 +1,5 @@
 package com.example.hotaji
 
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(android.R.layout.simple_list_item_1)
-    }
-}
-package com.example.hotaji
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -29,4 +18,3 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
-
